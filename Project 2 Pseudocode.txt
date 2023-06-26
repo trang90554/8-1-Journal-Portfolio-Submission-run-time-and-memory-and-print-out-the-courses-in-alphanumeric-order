@@ -1,0 +1,51 @@
+The program will open the file using fstream;
+A vector is  created or an  array that automatically stores data.
+Creating the  readFile function which contain the lines, courseNumbers, courseTitles, prerequisites, it requires the program to access the lines in the file and ensure the file contain next line, the important element in the file is the line requires at least two parameters. 
+If there are not enough two parameter, the program print out error and close the file. In the condition, if the system access to three parameters or more, it automatically process to error.
+// stored the data
+Open the course_info.txt
+Create a class course which has the course number = string; title = string; Prerequisite = string;
+The number = Split(line, delimiter) , delimiter allows the program to split a string into different small substring
+Title = split(line, delimiter) 
+The program will read each line of the course_info.txt file
+The program will use the code data = line.split;
+If the length of the data is not equal to three;
+{
+Print out (“error, invalid course”);
+}
+The program then will store and create a new course number,
+coursenumber = course(data[0], data[1], data[2];
+Then the program will add the course object to the vector
+course.apend = course,
+then the program will close the file and print out the information in the vector. 
+
+//search and print out
+The program will ask the users to put the number of the course to search
+Initialize course_number, course[i];
+The program will take the user input into the couse; 
+ Print "Enter course number to search" 
+ Initialized variables coursenumber
+ Take user input in course;
+Create a function def search course(course_number, courses)
+The program will check if the course is matched with the search algorthm
+If course[i] == courses_number;
+{
+Print out course number is found, print(“the course number:” course_numnber);
+Print(“title:” title)
+Print(“Prerequisites:” prerequisites)
+}
+Else
+{
+print(“course is invalid, course is not found)
+}
+{
+   Print "Course Not Found";
+}
+// print menu
+It is important that the program repeat, build the menu struture. The program create a function to load data and information from the specific file. The function will load the file data. It will load the data into the vector. Then it end
+Then the program will arrange to print out the information by using the function print course list and it automatically sort the course information alphanumeric order. 
+The menu structure’ foundation is specific to define a loop, and the loop present the menu choices. First choice is loading the information and the data structure. After that the menu present to print out the course list. The program will organize and specifically print out the course. 
+The users can chose the first option load the information, second option print out the course list, and the third option print out the course. The loop is neccessary and repeat until the users choose to exit the algorithm by chosing the forth option exit in the menu. The menu can be arranged by the switch condition.
+
+Then, program will call the search function
+Search_course(“CSC101” and print out other course)
